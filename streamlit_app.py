@@ -5,7 +5,7 @@ import os
 # Everything is accessible via the st.secrets dict:
 st.write("DB username:", st.secrets["user"])
 st.write("DB password:", st.secrets["password"])
-st.write("My cool secrets:", st.secrets["connections.snowflake"]["key"])
+st.write("My cool secrets:", st.secrets["key"])
 
 # And the root-level secrets are also accessible as environment variables:
 st.write(
