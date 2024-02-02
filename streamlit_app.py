@@ -10,5 +10,5 @@ st.write("My cool secrets:", st.secrets["key"])
 # And the root-level secrets are also accessible as environment variables:
 st.write(
     "Has environment variables been set:",
-    os.environ["db_username"] == st.secrets["db_username"],
+    os.environ["user"] == st.secrets["user"],
 )
